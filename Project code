@@ -1,0 +1,33 @@
+import tkinter as tk 
+
+def create_unit(): 
+
+ # Logic to create a unit 
+
+ print("Unit created") 
+
+def delete_unit(): 
+
+ # Logic to delete a unit 
+
+ print("Unit deleted") 
+
+# GUI setup 
+
+root = tk.Tk() 
+
+root.title("Unit Production GUI") 
+
+create_button = tk.Button(root, text="Create Unit", 
+
+command=create_unit) 
+
+create_button.pack() 
+
+delete_button = tk.Button(root, text="Delete Unit", 
+
+command=delete_unit) 
+
+delete_button.pack() 
+
+root.mainloop()
